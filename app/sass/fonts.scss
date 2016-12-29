@@ -1,0 +1,8 @@
+@import "bourbon";
+
+@include font-face("AvantGardeC", "../fonts/AvantGardeC", $file-formats: otf);
+@include font-face("AvantGardeCBold", "../fonts/AvantGardeCBold", $file-formats: otf);
+@include font-face("BebasNeueCyrillic", "../fonts/BebasNeueCyrillic", $file-formats: ttf);
+@include font-face("MagistralBlack", "../fonts/MagistralBlack", $file-formats: ttf);
+@include font-face("MagistralBold", "../fonts/MagistralBold", $file-formats: ttf);
+@include font-face("Magistral", "../fonts/Magistral", $file-formats:ttf);

@@ -49,6 +49,7 @@ body{
   border-left: 1px solid #9e0b0f;
   border-radius: 10px;
   background:linear-gradient(bottom, #ff6d00 -25%, #fffe00 125%);
+  color: #010101;
   font-family: "Tahoma", sans-serif;
   font-size: em(32px);
   text-transform: uppercase;
@@ -325,6 +326,7 @@ body{
 /*section-2*/
 .section_2{
   min-height: 790px;
+  position: relative;
 }
 .wrapper_section-2{
   padding: 60px;
@@ -332,11 +334,11 @@ body{
 .section-2_bg{
   position: relative;
   z-index: -1;
-  margin-top: -790px;
+  margin-top: -832px;
   width: 100%;
   height: 790px;
-  background: #ebebeb url("../img/imgForSprite/section_2_bg.jpg") center -40px no-repeat;
-  background-size: 100%;
+  background: #ebebeb url("../img/imgForSprite/section_2_bg.jpg") center no-repeat;
+  background-size: cover;
   transform: skewY(-5deg);
   box-shadow: inset 0 0 40px rgba(0,0,0,0.75);
 }
@@ -345,6 +347,7 @@ body{
   background-size: 43px 59px;
 }
 .region-block{
+  float: left;
   width: 28%;
   margin-top: 80px;
   color: #ffffff;
@@ -381,9 +384,228 @@ body{
   font-size: 1em;
 }
 .button_section-2{
+  position: relative;
+  left: 10px;
+  width: 28%;
+  height: 65px;
   margin-top: 75px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #070707;
+  font-size: em(23px);
+}
+.map{
+  float: right;
+  width: 72%;
+  height: 532px;
+  margin-top: 65px;
+  background: url("../img/imgForSprite/maps.png") center no-repeat;
+  background-size: 100%;
+}
+.info_section{
+  position: relative;
+  width: 53%;
+  margin-left: 10px;
+  margin-top: 60px;
+  padding-left: 50px;
+  background: url("../img/imgForSprite/pencil_raund.png") top left no-repeat;
+  background-size: 43px 42px;
+  color: #ffffff;
+  font-family: "Magistral", sans-serif;
+  font-size: em(17px);
+}
+.arrow-top_section-2{
+  bottom: 45px;
+  left: 70%;
+  right: 30%;
 }
 /*END section-2*/
+/*section-3*/
+.section_3{
+  min-height: 610px;
+  position: relative;
+}
+.wrapper_section-3{
+  padding: 25px;
+}
+.section-3_bg{
+  position: relative;
+  z-index: -1;
+  margin-top: -610px;
+  width: 100%;
+  height: 610px;
+  background: #bcbcbc url("../img/imgForSprite/section_3_footer_bg.png") center no-repeat;
+  background-size: cover;
+  transform: skewY(-5deg);
+}
+.section-name_news{
+  background: url("../img/imgForSprite/loudspeaker.png") center left no-repeat;
+  background-size: 56px 53px;
+}
+.social_section-3{
+  float: right;
+  margin-right: 30px;
+  margin-top: -50px;
+}
+.soc-name_section-3 {
+  float: left;
+  width: 230px;
+  padding-top: 3px;
+  margin-right: 10px;
+  text-align: right;
+  font-family: "MagistralBold", sans-serif;
+  font-size: em(18px);
+}
+.news-block{
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.news-block_item{
+  float: left;
+  width: 24%;
+  height: 420px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.news-block_item:hover{
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+.news-block_item:hover .news-block_title{
+  border-bottom: 2px solid #ffffff;
+}
+.news-block_img{
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news-text-wrap{
+  padding: 30px;
+}
+.news-block_title{
+  border-bottom: 2px solid #cbcbcb;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: "MagistralBold", sans-serif;
+  font-size: em(20px);
+  text-transform: uppercase;
+}
+.news-block_short-description{
+  margin-bottom: 20px;
+  font-family: "Magistral", sans-serif;
+  font-size: em(14px);
+  padding: 0 5px;
+}
+.subscribe-news{
+  margin-top: 30px;
+  padding-left: 20px;
+  background: url("../img/imgForSprite/arrow_right.png") center left no-repeat;
+  background-size: 12px;
+  font-family: "MagistralBold", sans-serif;
+  color: #ffffff;
+  font-size: em(18px);
+  text-decoration: underline;
+}
+.arrow-top_section-3{
+  right: -7%;
+  bottom: -18px;
+}
+/*END section-3*/
+/*section-4*/
+.section_4{
+  min-height: 640px;
+  position: relative;
+}
+.section-4_bg{
+  position: relative;
+  z-index: -1;
+  margin-top: -610px;
+  width: 100%;
+  height: 610px;
+  background: #ffffff url("../img/imgForSprite/section_4_footer_bg.png") center 390px no-repeat;
+  background-size: cover;
+  transform: skewY(-5deg);
+}
+.wrapper_section-4{
+  position: relative;
+}
+.insurance-block{
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+.section-name_insurance{
+  width: 300px;
+  padding-top: 10px;
+  background: url("../img/imgForSprite/polis.png") top left no-repeat;
+  background-size: 60px;
+  color: #737373;
+}
+.insurance-table{
+  margin: 0 auto;
+  margin-top: 25px;
+  font-family: "MagistralBold", sans-serif;
+  font-size: em(30px);
+  border-collapse: collapse;
+}
+.insurance-term{
+  border-right: 2px solid #cbcbcb;
+  padding-right: 10px;
+}
+.insurance-price{
+  padding-left: 10px;
+}
+.insurance-term,
+.insurance-price{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-bottom: 2px solid #cbcbcb;
+}
+tr:last-child .insurance-term,
+tr:last-child .insurance-price{
+  border-bottom: none;
+  padding-bottom: 10px;
+}
+.insurance-term_number{
+  font-family: "MagistralBlackC", sans-serif;
+  font-size: 1.6em;
+}
+.insurance-price_number{
+  color: #ff0d0c;
+  font-family: "MagistralBlackC", sans-serif;
+  font-size: 1.6em;
+}
+.button_section-4{
+  width: 305px;
+  height: 65px;
+  margin-top: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #070707;
+  font-size: em(23px);
+}
+.hands{
+  position: absolute;
+  top: -35px;
+  left: -50px;
+  width: 752px;
+  height: 733px;
+  background: url(../img/imgForSprite/hands.png) center no-repeat;
+  background-size: 100%;
+  transform: skewY(-1deg);
+}
+.info_section-4{
+  width: 470px;
+  margin-top: 475px;
+  margin-left: 65px;
+  background: url("../img/imgForSprite/polis_raund.png") top left no-repeat;
+  background-size: 45px;
+}
+/*END section-4*/
 
 
 //ALWAYS END

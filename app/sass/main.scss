@@ -86,6 +86,7 @@ body{
   background: url(../img/imgForSprite/arrow_raund_red.png) center no-repeat;
   background-size: 100%;
   cursor: pointer;
+  z-index: 10;
 }
 .arrow-top:hover{
   background: url(../img/imgForSprite/arrow_raund_grey.png) center no-repeat;
@@ -406,7 +407,7 @@ body{
   width: 53%;
   margin-left: 10px;
   margin-top: 60px;
-  padding-left: 50px;
+  padding-left: 60px;
   background: url("../img/imgForSprite/pencil_raund.png") top left no-repeat;
   background-size: 43px 42px;
   color: #ffffff;
@@ -590,7 +591,7 @@ tr:last-child .insurance-price{
 }
 .hands{
   position: absolute;
-  top: -35px;
+  top: -44px;
   left: -50px;
   width: 752px;
   height: 733px;
@@ -606,6 +607,204 @@ tr:last-child .insurance-price{
   background-size: 45px;
 }
 /*END section-4*/
+/*section-5*/
+.section_5{
+  min-height: 740px;
+  position: relative;
+}
+.section-5_bg{
+  position: relative;
+  z-index: -1;
+  margin-top: -740px;
+  width: 100%;
+  height: 740px;
+  background: #c60000 url("../img/imgForSprite/section_5_footer_bg.jpg") center no-repeat;
+  background-size: cover;
+  transform: skewY(-5deg);
+}
+.wrapper_section-5{
+  position: relative;
+  padding: 30px 20px;
+  text-align: center;
+}
+.section-name_services{
+  background: url("../img/imgForSprite/puzzle.png") top left no-repeat;
+  background-size: 59px;
+}
+.info_services{
+  float: right;
+  margin-top: -55px;
+  margin-right: 35px;
+  background: url("../img/imgForSprite/attention_yellow.png") center left no-repeat;
+  background-size: 41px 42px;
+  color: #ffffff;
+  text-align: center;
+}
+.services-block_item{
+  float: left;
+  width: 24%;
+  height: 420px;
+  margin-left: 5px;
+  padding: 20px 35px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.services-block_item:first-child {
+  margin-left: 15px;
+}
+.services-block_item:hover{
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+.services-block_item:hover .services-block_img__passport{
+  background-image: url("../img/imgForSprite/passport_grey.png");
+}
+.services-block_item:hover .services-block_img__map{
+  background-image: url("../img/imgForSprite/maps_pl_grey.png");
+}
+.services-block_item:hover .services-block_img__education{
+  background-image: url("../img/imgForSprite/education_grey.png");
+}
+.services-block_item:hover .services-block_img__house{
+  background-image: url("../img/imgForSprite/house_grey.png");
+}
+.services-block_item:hover .services-block_title{
+  border-bottom: 2px solid #ffffff;
+}
+.services-block_img {
+  width: 154px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.services-block_img__passport {
+  background-image: url("../img/imgForSprite/passport.png");
+  background-size: 95px 150px;
+}
+.services-block_img__map {
+  background-image: url("../img/imgForSprite/maps_pl.png");
+  background-size: 154px 136px;
+}
+.services-block_img__education {
+  background-image: url("../img/imgForSprite/education.png");
+  background-size: 147px 142px;
+}
+.services-block_img__house {
+  background-image: url("../img/imgForSprite/house.png");
+  background-size: 109px 138px;
+}
+.services-block_title{
+  border-bottom: 2px solid #cbcbcb;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: "MagistralBlack", sans-serif;
+  font-size: em(26px);
+  text-transform: uppercase;
+}
+.services-block_short-description{
+  font-family: "Magistral", sans-serif;
+  font-size: em(14px);
+}
+.services-block_short-description:hover {
+  color: #ff0000;
+  text-decoration: underline;
+  text-decoration-color: rgba(255,0,0,.2);
+}
+.info_section-5{
+  float: left;
+  width: 370px;
+  background: url("../img/imgForSprite/puzzle_raund.png") top left no-repeat;
+  background-size: 45px;
+  text-align: left;
+}
+.button_section-5{
+  width: 305px;
+  height: 65px;
+  margin-top: 60px;
+  margin-left: -31%;
+  border: 1px solid #ff0000;
+  color: #070707;
+  font-size: em(23px);
+}
+/*END section-5*/
+/*section-6*/
+.section_6{
+  min-height: 600px;
+  position: relative;
+}
+.section-6_bg{
+  position: relative;
+  z-index: -2;
+  margin-top: -620px;
+  width: 100%;
+  height: 620px;
+  background: #ffffff url("../img/imgForSprite/section_6_footer_bg.png") center no-repeat;
+  background-size: cover;
+}
+.wrapper_section-6{
+  position: relative;
+  padding: 60px 20px 30px 20px;
+  text-align: center;
+}
+.advice-block{
+  width: 57%;
+  text-align: center;
+}
+.section-name_advice{
+  width: 340px;
+  padding-left: 50px;
+  padding-top: 5px;
+  background: url("../img/imgForSprite/lamp.png") center left no-repeat;
+  background-size: 37px 48px;
+  color: #737373;
+}
+.advice-list{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.advice-list_item{
+  margin-bottom: 10px;
+}
+.advice-list_item-number{
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  text-align: center;
+  color: #ffffff;
+  font-family:"MagistralBlack", sans-serif;
+  font-size: em(26px);
+  line-height: 43px;
+}
+.advice-list_item-text{
+  padding-top: 5px;
+  font-size: em(14px);
+  text-align: left;
+}
+.advice-list_item:hover .advice-list_item-text{
+  color: #ff0000;
+  text-decoration: underline;
+  text-decoration-color: rgba(255,0,0,.2);
+  cursor: pointer;
+}
+.advice-list_item:hover .advice-list_item-number{
+  background-color: #737373;
+}
+.men{
+  position: absolute;
+  top: -129px;
+  right: 0;
+  width: 511px;
+  height: 729px;
+  background: url(../img/imgForSprite/men.png) center no-repeat;
+  background-size: 100%;}
+/*END section-6*/
 
 
 //ALWAYS END

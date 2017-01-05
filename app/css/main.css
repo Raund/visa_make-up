@@ -832,6 +832,83 @@ tr:last-child .insurance-price {
   background-size: 100%; }
 
 /*END section-6*/
+/*section-7*/
+.section_7 {
+  min-height: 710px;
+  position: relative;
+  background: #383838 url("../img/imgForSprite/section_7_footer_bg.jpg") center top no-repeat; }
+
+.wrapper_section-7 {
+  position: relative;
+  padding: 20px 80px 50px 80px; }
+
+.section-name_contact {
+  display: block;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+  background: url("../img/imgForSprite/mobile.png") center left no-repeat;
+  background-size: 31px 54px; }
+
+.contact-map {
+  float: left; }
+
+.contact-data {
+  float: right;
+  width: 40%; }
+
+.section-name_contact-title {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: "MagistralBold", sans-serif;
+  font-size: 2.1875em;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.contact-data_text {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: "Magistral", sans-serif;
+  font-size: 1.0625em;
+  color: #ffffff;
+  border-bottom: 5px solid #ff0000; }
+
+.callback-item {
+  width: 345px;
+  height: 45px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  -webkit-box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.27);
+          box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.27);
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font-family: "Magistral", sans-serif;
+  font-size: 1.0625em;
+  color: #4d4d4d; }
+
+textarea.callback-item {
+  height: 100px;
+  padding-top: 15px; }
+
+.button_callback-section {
+  width: 305px;
+  height: 65px;
+  margin-top: 35px;
+  margin-left: 20px;
+  font-size: 1.4375em;
+  border: none; }
+
+/*END section-7*/
+/*footer*/
+.footer {
+  padding-top: 55px;
+  min-height: 125px;
+  text-align: center;
+  font-family: "MagistralBold", sans-serif;
+  font-size: 0.75em; }
+
+/*END footer*/
 /*==========  Desktop First Method  ========== */
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */

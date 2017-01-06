@@ -956,6 +956,64 @@ textarea.callback-item{
   padding-left: 35px;
 }
 /*END pop-up question*/
+/*pop-up services*/
+.popup-services{
+  width: 1160px;
+  margin: 0 auto;
+  padding-top: 35px;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+.popup-services_name{
+  float: left;
+  width: 25%;
+  padding:0 25px ;
+  text-align: center;
+}
+.advice-list_item-text{
+  width: 75%;
+  float: right;
+  padding-right: 70px;
+}
+.popup-services .services-block_title{
+  border-bottom: none;
+}
+.close_services{
+  margin-right: 35px;
+  background: url("../img/imgForSprite/close_grey.png") center no-repeat;
+  background-size: 17px;
+}
+.popup-services_form-block{
+  width: 100%;
+  margin-top: 40px;
+  padding: 30px 0 50px 70px;
+  background-color: #c6c6c6;
+}
+.popup-services_form-block_name{
+  margin-bottom: 10px;
+  font-family:"MagistralBold", sans-serif;
+  font-size: em(35px);
+  text-transform: uppercase;
+  color: #878787;
+}
+.popup-services-input{
+  width: 340px;
+  height: 50px;
+  margin-right: 20px;
+  padding-left: 20px;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.27);
+  border-radius: 10px;
+  border: none;
+  font-family:"Magistral", sans-serif;
+  font-size: em(20px);
+  color: #4d4d4d;
+}
+.popup-services .button_callback-section{
+  border: 1px solid #ffffff;
+}
+
+/*END pop-up services*/
 
 
 //ALWAYS END

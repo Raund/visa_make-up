@@ -17,6 +17,9 @@ ul {
   margin: 0;
   list-style: none; }
 
+.left {
+  float: left; }
+
 .hidden {
   display: none; }
 
@@ -50,6 +53,7 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(-25%, #ff6d00), color-stop(125%, #fffe00));
   background: -webkit-linear-gradient(bottom, #ff6d00 -25%, #fffe00 125%);
   background: linear-gradient(bottom, #ff6d00 -25%, #fffe00 125%);
+  background: -moz-linear-gradient(bottom, #ff6d00 -25%, #fffe00 125%);
   color: #010101;
   font-family: "Tahoma", sans-serif;
   font-size: 2em;
@@ -59,7 +63,8 @@ body {
 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-25%, #ff6d00), color-stop(125%, #fffe00));
   background: -webkit-linear-gradient(top, #ff6d00 -25%, #fffe00 125%);
-  background: linear-gradient(top, #ff6d00 -25%, #fffe00 125%); }
+  background: linear-gradient(top, #ff6d00 -25%, #fffe00 125%);
+  background: -moz-linear-gradient(top, #ff6d00 -25%, #fffe00 125%); }
 
 .button_red {
   width: 140px;
@@ -72,6 +77,7 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-25%, #fa303d), color-stop(125%, #e00709));
   background: -webkit-linear-gradient(top, #fa303d -25%, #e00709 125%);
   background: linear-gradient(top, #fa303d -25%, #e00709 125%);
+  background: -moz-linear-gradient(top, #fa303d -25%, #e00709 125%);
   color: #ffffff;
   font-family: "Tahoma", sans-serif;
   font-size: 0.8125em;
@@ -81,7 +87,8 @@ body {
 .button_red:hover {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(-25%, #fa303d), color-stop(125%, #e00709));
   background: -webkit-linear-gradient(bottom, #fa303d -25%, #e00709 125%);
-  background: linear-gradient(bottom, #fa303d -25%, #e00709 125%); }
+  background: linear-gradient(bottom, #fa303d -25%, #e00709 125%);
+  background: -moz-linear-gradient(bottom, #fa303d -25%, #e00709 125%); }
 
 .arrow-top {
   position: absolute;
@@ -233,7 +240,7 @@ body {
   background-color: #ffffff;
   -webkit-border-radius: 30px;
           border-radius: 30px;
-  padding: 35px;
+  padding: 32px;
   text-align: center; }
 
 .visa-type_item:hover {
@@ -345,9 +352,9 @@ body {
 .section-2_bg {
   position: relative;
   z-index: -1;
-  margin-top: -832px;
+  margin-top: -810px;
   width: 100%;
-  height: 790px;
+  height: 760px;
   background: #ebebeb url("../img/imgForSprite/section_2_bg.jpg") center no-repeat;
   background-size: cover;
   -webkit-transform: skewY(-5deg);
@@ -408,12 +415,23 @@ body {
   font-size: 1.4375em; }
 
 .map {
+  position: relative;
   float: right;
   width: 72%;
   height: 532px;
   margin-top: 65px;
+  /*
   background: url("../img/imgForSprite/maps.png") center no-repeat;
-  background-size: 100%; }
+  background-size: 100%;
+  */ }
+
+.map_1 {
+  position: absolute;
+  width: 341px;
+  height: 210px;
+  background: url("../img/imgForSprite/map_1.png") center no-repeat;
+  -webkit-shape-outside: polygon(127px, 109px, 126px);
+          shape-outside: polygon(127px, 109px, 126px); }
 
 .info_section {
   position: relative;
@@ -524,8 +542,11 @@ body {
   background-size: 12px;
   font-family: "MagistralBold", sans-serif;
   color: #ffffff;
-  font-size: 1.125em;
-  text-decoration: underline; }
+  font-size: 1.125em; }
+
+.subscribe-news:hover {
+  text-decoration: underline;
+  cursor: pointer; }
 
 .arrow-top_section-3 {
   right: -7%;
@@ -1004,7 +1025,7 @@ textarea.callback-item {
   padding: 0 25px;
   text-align: center; }
 
-.advice-list_item-text {
+.popup-services_text {
   width: 75%;
   float: right;
   padding-right: 70px; }
@@ -1090,7 +1111,9 @@ textarea.callback-item {
   background-size: 17px 19px;
   font-family: "MagistralBold", sans-serif;
   font-size: 1.1875em;
-  color: #717171;
+  color: #717171; }
+
+.popup-news_return:hover {
   text-decoration: underline;
   cursor: pointer; }
 

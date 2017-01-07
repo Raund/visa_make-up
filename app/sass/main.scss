@@ -239,20 +239,8 @@ body{
   background-color: #e6e6e6;
   cursor: pointer;
 }
-.visa-type_item:hover .visa-type_img__flag{
-  background-image: url("../img/imgForSprite/flag_pl_grey.png");
-}
-.visa-type_item:hover .visa-type_img__bag{
-  background-image: url("../img/imgForSprite/bag_grey.png");
-}
-.visa-type_item:hover .visa-type_img__plane{
-  background-image: url("../img/imgForSprite/plane_grey.png");
-}
-.visa-type_item:hover .visa-type_img__diplom{
-  background-image: url("../img/imgForSprite/diplom_grey.png");
-}
-.visa-type_item:hover .visa-type_price{
-  border-top: 2px solid #ffffff;
+.visa-type_item:hover .visa-type_img{
+  filter: grayscale(1);
 }
 .visa-type_item:first-child {
   margin-left: 0;
@@ -406,7 +394,7 @@ body{
   float: right;
   width: 72%;
   height: 532px;
-  margin-top: 65px;
+  margin-top: 40px;
 }
 #west{
   position: absolute;
@@ -753,17 +741,8 @@ tr:last-child .insurance-price{
   background-color: #e6e6e6;
   cursor: pointer;
 }
-.services-block_item:hover .services-block_img__passport{
-  background-image: url("../img/imgForSprite/passport_grey.png");
-}
-.services-block_item:hover .services-block_img__map{
-  background-image: url("../img/imgForSprite/maps_pl_grey.png");
-}
-.services-block_item:hover .services-block_img__education{
-  background-image: url("../img/imgForSprite/education_grey.png");
-}
-.services-block_item:hover .services-block_img__house{
-  background-image: url("../img/imgForSprite/house_grey.png");
+.services-block_item:hover .services-block_img{
+  filter: grayscale(1);
 }
 .services-block_item:hover .services-block_title{
   border-bottom: 2px solid #ffffff;

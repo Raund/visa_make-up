@@ -12,12 +12,13 @@ $(function(){
         console.info('hover', this);
         var img = $(this).attr('data-hover-img');
         //console.info('hover img', img);
-        $(img).addClass('active');
+        $('#' + img).addClass('active');
+        $('.wrapper_section-2').find('.region-block').addClass('active');
     },
     function () {
         console.info('unhover', this);
         var img = $(this).attr('data-hover-img');
         //console.info('unhover img', img);
-        $(img).removeClass('active');
+        $('#' + img).removeClass('active');
     });
 });

@@ -1,19 +1,44 @@
 /*==========  Desktop First Method  ========== */
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1200px) {
+  .wrapper{
+    width: 100%;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 992px) {
-  
+  .logo-wrap, .phones{
+    float: none;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   
 }
+@media only screen and (max-width: 600px) {
+  .phones_item{
+    float: none;
+  }
+  .phones_item__bg{
+    padding-left: 0;
+    background: none;
+  }
+
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   
+}
+@media only screen and (max-width: 400px) {
+  .logo{
+    float: none;
+    margin-right: 0;
+  }
+  .logo-wrap{
+    text-align: center;
+  }
 }
 
 /* Custom, iPhone Retina */

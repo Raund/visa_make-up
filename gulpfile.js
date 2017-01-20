@@ -77,9 +77,10 @@ gulp.task('clear', function (callback) {
 });
 
 gulp.task('sprite', function () {
-  var spriteData = gulp.src('app/img/imgForSprite/*.png').pipe(spritesmith({
+  var spriteData = gulp.src('app/img/visa_sprite/*.png').pipe(spritesmith({
     imgName: 'sprite.png',
-    cssName: 'sprite.scss'
+    cssName: 'sprite.scss',
+    padding: 30,
   }));
   return spriteData.pipe(gulp.dest('app/img/sprites/'));
 });

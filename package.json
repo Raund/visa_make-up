@@ -20,8 +20,8 @@
     "gulp-sass": "^2.2.0",
     "gulp-uglifyjs": "^0.6.2",
     "gulp-update-modul": "^1.5.5",
-    "gulp.spritesmith": "^6.2.1",
-    "imagemin-pngquant": "^4.2.2",
+    "gulp.spritesmith": "^6.3.0",
+    "imagemin-pngquant": "^5.0.0",
     "node-bourbon": "^4.2.8"
   }
 }
